@@ -1,1 +1,1 @@
-I'm an alx-student, this is my betty style repository
+I'm an alx student, this ismy betty style repository
