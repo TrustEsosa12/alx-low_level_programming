@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S <2-assemler.c> -o <2-assembler>
+gcc -S <filename.c> -o <filename>
