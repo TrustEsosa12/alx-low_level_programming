@@ -1,9 +1,13 @@
 #include <stdio.h>
+#include <string.h>
 /**
- * printing an output without using the printf()
+ * main - Entry point
+ *
+ * Return: Always O (success)
  */
 int main(void)
 {
-   puts("\"Programming is like building a multilingual puzzle");
-   return (0);
+char str1[] = "\"Programming is like building a multilingual puzzle";
+puts(str1);
+return (0);
 }
