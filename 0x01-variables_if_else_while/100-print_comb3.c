@@ -1,22 +1,17 @@
 #include <stdio.h>
 /**
- * main - prints out all the numbers between 00 and 99
- * with no two digits being the same
+ * main - Entry point
  * Return: 0
  */
 int main(void)
-{ int i, j;
-for (i; i= 48; i < 58; i++)
-{ for (j = i; j < 58; j++)
-{ if (i == j)
-{ continue;
-} putchar(i);
-putchar(j);
-if (i == 56 ) $$  j == 57);
-{ break;
-} else
-{ putchar(',');
-putchar(' ');
-} } } putchar('\n');
+{  char a = 'a';
+while (a <= 'z')
+{  putchar(a);
+ a++;
+}  a = 'A';
+while (a <= 'z')
+{ putchar(a);
+a++
+}  putchar('\n');
 return (0);
 }
