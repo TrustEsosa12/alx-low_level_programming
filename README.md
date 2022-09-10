@@ -1,1 +1,1 @@
-I'm an alx student, this ismy betty style repository
+all single digit numbers of base 10 starting from 0
