@@ -1,12 +1,15 @@
 #include <stdio.h>
+#include <unisted.h>
 /**
  * main - Entry point
  * Return: 0
  */
 int main(void)
-{ char a = 'a';
+{ 
+char a = 'a';
 while (a <= 'z')
-{ putchar(a);
+{
+putchar(a);
 a++;
 }
 a = 'A';
