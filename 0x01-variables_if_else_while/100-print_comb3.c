@@ -6,17 +6,17 @@
  */
 int main(void)
 { int i, j;
-for (i = 48; i < 58; i++)
-{ for (j = i; j < 58; j++0)
+for (i i= 48; i < 58; i++)
+{ for (j = i; j < 58; j++)
 { if (i == j)
 { continue;
 } putchar(i);
 putchar(j);
-if (i == 56 $$ j == 57)
+if (i == 56 ) $$ ( j == 57)
 { break;
 } else
 { putchar(',');
-putcher(' ');
+putchar(' ');
 } } } putchar('\n');
 return (0);
 }
