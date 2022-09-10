@@ -1,1 +1,1 @@
- a program that prints all single digit
+prints the lowercase alphabet in reverse
