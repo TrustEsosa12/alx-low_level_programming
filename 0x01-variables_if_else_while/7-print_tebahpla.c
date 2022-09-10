@@ -4,13 +4,10 @@
  * Return: 0
  */
 int main(void)
-{
-char a = 'z';
+{ char a = 'z';
 while (a >= 'a')
-{
-putchar(a);
+{ putchar(a);
 a--;
-}	
-putchar('\n');
+} putchar('\n');
 return (0);
 }
