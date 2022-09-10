@@ -4,14 +4,10 @@
  * Return: 0
  */
 int main(void)
-{  int a = 'a';
-while (a <= 'z')
-{  putchar(a);
- a++;
-}  a = 'A';
-while (a <= 'z')
+{ int a = '00';
+while (a <= '89')
 { putchar(a);
-a++;
+ a++;
 } putchar('\n');
 return (0);
 }
