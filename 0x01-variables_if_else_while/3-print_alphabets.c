@@ -1,17 +1,20 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
- * main - Entry point
- * Return: 0
+ * main - prints alphabeth in lowercase then uppercase
+ * Return: Always 0 (success)
  */
 int main(void)
-{  char a = 'a';
-while (a <= 'z')
-{  putchar(a);
-a++;
-}  a = 'A';
-while (a <= 'z')
-{  putchar(a);
-a++;
-}  putchar(',');
+{ 
+int ch; 
+for (ch = 'a'; ch <= 'z'; ch++)
+{ 
+putchar(ch);
+}
+for (ch = 'A'; ch <= 'Z'; ch++)
+{ 
+putchar(ch);
+} 
+putchar('\n');
 return (0);
 }

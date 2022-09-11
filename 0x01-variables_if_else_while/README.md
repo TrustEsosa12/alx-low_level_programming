@@ -1,1 +1,1 @@
-all possible combinations of two two-digit numbers
+prints the alphabet in lowercase, and then in uppercase
