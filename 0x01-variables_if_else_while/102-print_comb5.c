@@ -19,10 +19,10 @@ i = 48;
 while (i < 58)
 {
 op1 = (h * 10) + g;
-opt2 = (e * 10) + i;
+op2 = (e * 10) + i;
 if (op1 < op2)
 {
-putcar(h);
+putchar(h);
 putchar(g);
 putchar(' ');
 putchar(e);
