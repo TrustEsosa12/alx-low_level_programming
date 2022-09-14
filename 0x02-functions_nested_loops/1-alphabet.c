@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include <stdio.h>
 /**
  * main - Entry point
  * Description: Write a function that prints the alphabet, in lowercase 
@@ -9,8 +9,8 @@ void print_alphabet(void)
 int n;
 for (n =  'a'; n <= 'z'; n++)
 {
-putchar(n);
+_putchar(n);
 }
-putchar('\n');
+_putchar('\n');
 return: 0;
 }  
