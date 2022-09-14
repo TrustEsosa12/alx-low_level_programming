@@ -1,19 +1,16 @@
-#include <stdio.h
+#include <stdio.h>
 /**
  * main - Entry point
- * Description: Write a function that prints the alphabet, in lowercase, followed by a new line
+ * Description: Write a function that prints the alphabet, in lowercase 
  * Return: Always 0 (sucess)
  */
-int main();
+main(void)
 {
-int alphabet;
-alphabet = 'a';
-return("lowercase alphabet:\n");
+int n;
+for (n =  'a'; n <= 'z'; n++)
 {
-while(a <= 'z')
-putchar("%d/n", a);
-a++;
+putchar(n);
 }
-putchar('\n')
+putchar('\n');
 return: 0;
 }  
