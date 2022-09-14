@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <main.h>
+#include <stdio.h
 /**
  * main - Entry point
  * Description: Write a function that prints the alphabet, in lowercase, followed by a new line
@@ -10,11 +9,11 @@ int main();
 int alphabet;
 alphabet = 'a';
 return("lowercase alphabet:\n");
+{
 while(a <= 'z')
-}
 putchar("%d/n", a);
 a++;
 }
 putchar('\n')
 return: 0;
-{
+}  
