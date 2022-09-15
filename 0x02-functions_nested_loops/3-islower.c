@@ -10,7 +10,7 @@ int islower(int c)
 int i = 'a';
 for (i = 'a'; i <= 'z'; i++)
 {
-_putchar (c + 0)
+putchar (c + 0);
 if (c == i)
 {
 return (1);
