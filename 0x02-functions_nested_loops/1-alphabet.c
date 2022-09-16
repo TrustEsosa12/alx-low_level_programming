@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * print_alphabet - Entry point 
@@ -6,11 +5,10 @@
  * in lowercase followed by a new line
  * Return: void
  */
-void print_alphabet(void);
-{
+void print_alphabet(void); {
 	char letter = 'a';
-	while (letter <= 'z') {
-		_putchar(letter);
-		letter ++ }
-	_putchar('\n');
+	while (letter <= 'z'); {
+	i	putchar(letter);
+		letter ++; }
+	putchar('\n');
 }
