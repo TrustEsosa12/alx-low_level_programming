@@ -1,1 +1,1 @@
- testing if the alphabet is lower
+a function that checks for lowercase character
