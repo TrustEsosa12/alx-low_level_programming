@@ -1,1 +1,1 @@
- a function that prints n elements of an array of integers
+ a function that copies the string pointed to by src
