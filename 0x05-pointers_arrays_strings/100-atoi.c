@@ -15,7 +15,7 @@ num  = 0;
 sign = 1;
 while (*temp != '\0' && (*temp < '0' || *temp > '9'))
 {
-if (*temp == ' - ')
+if (*temp = '-')
 sign *= -1;
 temp++;
 }
