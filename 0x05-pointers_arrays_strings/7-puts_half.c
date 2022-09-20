@@ -2,6 +2,7 @@
 #include <stdio.h>
 /**
  *puts_half - function that prints half of a string, followed by a new line
+ *Description: function should print the second half of the string
  *@s: This is the input string
  */
 void puts_half(char *str)
