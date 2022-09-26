@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#define NULL 0
 /**
  * _strchr - locate 1st occurance of char in string and returns pointer there
  * @s: string to search
@@ -10,7 +9,7 @@
 char *_strchr(char *s, char c)
 {
 int i = 0;
-while s([i] != '\0' && s[i] != c)
+while (s[i] != '\0' && s[i] != c)
 i++;
 if (s[i] == c)
 return (&s[i]);
