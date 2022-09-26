@@ -1,1 +1,1 @@
-function locates the first occurrence in the string s
+a function that prints the chessboard
