@@ -1,1 +1,1 @@
-returns the natural square root of a number
+returns 1 if the input integer is a prime number, otherwise return 0
