@@ -1,1 +1,1 @@
-a program that prints its name
+a program that prints the number of arguments passed into it
