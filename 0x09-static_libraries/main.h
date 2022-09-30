@@ -1,12 +1,6 @@
 #!/bin/bash
 #ifndef _MAIN_H_
 #define _MAIN_H_
-/**
- * file: main.h
- * Auto: Esosa Joseph
- * Disc: contain the prototypes of the functions
- * Return: Always 0 (success)
- */
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
