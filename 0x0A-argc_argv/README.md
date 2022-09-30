@@ -1,1 +1,1 @@
-a program that adds positive numbers
+Minimal Number of Coins for Change
