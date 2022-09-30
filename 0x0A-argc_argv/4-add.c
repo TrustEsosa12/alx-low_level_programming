@@ -22,6 +22,6 @@ return (1);
 }
 add += atoi(argv[i]);
 }
-printf("%\n", add);
+printf("%d\n", add);
 return (0);
 }
