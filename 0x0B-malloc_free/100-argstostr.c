@@ -7,7 +7,7 @@
  * Return: pointer of an array of char
  */
 char *argstostr(int ac, char **av)
-{ 
+{
 char *aout;
 int c, i, j, ia;
 if (ac == 0)
@@ -27,7 +27,7 @@ free(aout);
 return (NULL);
 }
 for (i = j = ia = 0; ia < c; j++, ia++)
-{ 
+{
 if (av[i][j] == '\0')
 {
 aout[ia] = '\n';
