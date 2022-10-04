@@ -24,10 +24,10 @@ if (strout == NULL)
 free(strout);
 return (NULL);
 }
-for (k = 0; K < i; k++)
+for (k = 0; k < i; k++)
 strout[k] = s1[k];
 limit = j;
-for (j = 0; j <= limit; K++, j++)
+for (j = 0; j <= limit; k++, j++)
 strout[k] = s2[j];
 return (strout);
 }
