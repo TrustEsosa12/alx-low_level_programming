@@ -1,8 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
-#include <ctype.h>
-
 /**
  * main - multiplies two positive numbers
  * @argc: argument count
@@ -25,7 +23,7 @@ multiply(s, f);
 return (0);
 }
 /**
- * multiply - multiplies two numbers and displays it
+ * multiply - multiplies two numbers and display it
  * @f: first "number"
  * @s: second "number"
  */
