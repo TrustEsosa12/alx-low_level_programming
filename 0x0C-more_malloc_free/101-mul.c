@@ -70,9 +70,6 @@ return (0);									c++;
 }
 return (1);
 }
-
-
-
 /**
  * _strlen - returns the length of a string
  * @s: string s
@@ -85,9 +82,6 @@ while (*s)
 s++;
 return (s - p);
 }
-
-
-
 /**
  * _memset - fills memory with a constant byte
  * @s: memory area
