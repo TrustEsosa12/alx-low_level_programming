@@ -25,7 +25,7 @@ multiply(s, f);
 return (0);
 }
 /**
- * multiply: multiplies two numbers and displays it
+ * multiply - multiplies two numbers and displays it
  * @f: first "number"
  * @s: second "number"
  */
@@ -35,7 +35,7 @@ int i, len1, len2, total, fdigit, sdigit, res = 0, tmp;
 int *ptr;
 len1 = _strlen(f);
 len2 = _strlen(s);
-tmp - len2;
+tmp = len2;
 total = len1 + len2;
 ptr = _calloc(sizeof(int), (len1 + len2));
 for (len1--; len1 >= 0; len1--)
