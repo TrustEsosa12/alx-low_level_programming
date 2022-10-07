@@ -26,7 +26,7 @@ exit(0);
 }
 }
 /**
- * _initialize_array - set memery to zero in a new array
+ * _initialize_array - set memory to zero in a new array
  * @ar: char array.
  * @lar: length of the char array.
  * Return: pointer of a char array.
