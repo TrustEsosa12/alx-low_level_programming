@@ -36,9 +36,6 @@ for (i = 0; i < len; i++)
 dest[i] = '\0';
 return (dest);
 }
-
-
-
 /**
  * new_dog - creates a new dog
  * @name: name of the dog
@@ -55,7 +52,7 @@ len2 = _strlen(owner);
 dog = malloc(sizeof(dog_t));
 if (dog == NULL)								return (NULL);
 dog->name = malloc(sizeof(char) * (len1 + 1));
-if (dog->name == NULL)							
+if (dog->name == NULL)
 {
 free(dog);									return (NULL);
 }
