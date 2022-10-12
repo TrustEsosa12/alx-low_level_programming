@@ -13,7 +13,7 @@ char *arr;
 if (argc != 2)
 {
 printf("Error\n");
-exit(1)
+exit(1);
 }
 bytes = atoi(argv[1]);
 if (bytes < 0)
